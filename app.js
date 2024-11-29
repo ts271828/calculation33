@@ -4,8 +4,8 @@ function getRandomArbitrary(min, max) {
 }
 
 function generate () {
-    let num1 = getRandomArbitrary(10, 99);
-    let num2 = getRandomArbitrary(10, 99);
+    let num1 = getRandomArbitrary(100, 999);
+    let num2 = getRandomArbitrary(100, 999);
     let ans = num1 * num2;
     document.getElementById("divA").textContent = `${num1} ✕ ${num2}`;
     console.log(`${num1} ✕ ${num2}`);
